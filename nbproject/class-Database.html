@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Database | NuriaMVC</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?2152419990"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Bootstrap.html">Bootstrap</a></li>
+				<li><a href="class-Config.html">Config</a></li>
+				<li><a href="class-ControllerBase.html">ControllerBase</a></li>
+				<li class="active"><a href="class-Database.html">Database</a></li>
+				<li><a href="class-Index.html">Index</a></li>
+				<li><a href="class-IndexController.html">IndexController</a></li>
+				<li><a href="class-IndexModel.html">IndexModel</a></li>
+				<li><a href="class-IndexView.html">IndexView</a></li>
+				<li><a href="class-Model.html">Model</a></li>
+				<li><a href="class-Obrem.html">Obrem</a></li>
+				<li><a href="class-RegisterController.html">RegisterController</a></li>
+				<li><a href="class-ReservasController.html">ReservasController</a></li>
+				<li><a href="class-ReservasModel.html">ReservasModel</a></li>
+				<li><a href="class-Session.html">Session</a></li>
+				<li><a href="class-SPDO.html">SPDO</a></li>
+				<li><a href="class-UserController.html">UserController</a></li>
+				<li><a href="class-UserModel.html">UserModel</a></li>
+				<li><a href="class-View.html">View</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Database</h1>
+
+
+	<div class="description">
+	
+<p>Database dona accés a la base de dades persistència de dades</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+		<b>Located at</b> <a href="source-class-Database.html#3-98" title="Go to source code">system/Database.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Database.html#12-26" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="instance" id="_instance">
+
+		<td class="attributes"><code>
+			 public static
+			DB
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_instance">#</a>
+		<code><a href="source-class-Database.html#37-52" title="Go to source code">instance</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the singleton object. Must be called at least once before using any
+static PDO methods BUT Magic methods call it for the client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the singleton object. Must be called at least once before using any
+static PDO methods BUT Magic methods call it for the client</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DB</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="changeDatabase" id="_changeDatabase">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_changeDatabase">#</a>
+		<code><a href="source-class-Database.html#56-67" title="Go to source code">changeDatabase</a>( <span>String <var>$database</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Change database you are working on, it has to be on the same server and the
+same user can access it</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Change database you are working on, it has to be on the same server and the
+same user can access it</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$database</var></dt>
+					<dd><code>String</code><br>$database</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__call" id="___call">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___call">#</a>
+		<code><a href="source-class-Database.html#71-81" title="Go to source code">__call</a>( <span>String <var>$method</var></span>, <span>Array <var>$args</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Magic methods to call PDO methods directly through this object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Magic methods to call PDO methods directly through this object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>String</code><br>$method</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>Array</code><br>$args</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__callStatic" id="___callStatic">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___callStatic">#</a>
+		<code><a href="source-class-Database.html#85-97" title="Go to source code">__callStatic</a>( <span>String <var>$method</var></span>, <span>Array <var>$args</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Magic methods to call PDO methods statically through this class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Magic methods to call PDO methods statically through this class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>String</code><br>$method</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>Array</code><br>$args</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		NuriaMVC API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

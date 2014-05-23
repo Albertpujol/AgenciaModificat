@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /NuriaMVC
+AddType text/css  .css 
+Options +FollowSymlinks 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1 [L]

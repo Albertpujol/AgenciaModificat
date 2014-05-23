@@ -1,0 +1,8 @@
+{
+    
+    "driver":"mysql",
+    "dbname":"agency",
+    "dbhost":"localhost",
+    "dbuser":"root",
+    "dbpass":""
+}

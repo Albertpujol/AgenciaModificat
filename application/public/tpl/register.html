@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pagina de registre</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        </head>
+        
+    <body>
+        <div><h1>Registre:</h1></div>
+         <div id='ident'><form method='POST' action='{APP_W}/index/register'>
+        Nom:<input type='text' name='nom' id='nom'></br>
+        Cognoms:<input type='text' name='cognoms' id='cognoms'></br>
+        Email:<input type='text' name='email' id='email' required=""></br>
+        password:<input type='password' name='password' id='password' required=""></br>
+        confirmar password:<input type='password' name='pass_conf'id='pass_conf' required=""></br>
+         <input type='submit' value='entrar' name='reg'>
+       
+        </br>
+        </br>
+        <a href='{APP_W}/index'>Tornar</a></div>
+        
+    </body>
+</html>
